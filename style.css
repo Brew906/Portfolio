@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(221, 225, 238);
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    background-image: url('images/desk2.jpg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 30px;
+    border: 2px solid black;
+   
+  }
+  .headerText1{
+    position: absolute;
+    text-shadow: 2px 2px 4px #faf9f9;
+    top: 10%;
+    right: 13%;
+    transform: translate(-50%, -50%);
+  }
+  .headerText2{
+    text-shadow: 2px 2px 4px#faf9f9;
+    font: 80px sans-serif; 
+    position: absolute;
+    top: 20%;
+    right: 14%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .homepagebuttons{/*navagation buttons size and color*/
+	background-color: rgb(173, 191, 194);
+  text-shadow: 2px 2px 4px#1a0808;
+	border-radius: 8px;
+	font-size: 1em;
+	padding: 10px 20px;
+	transition-duration: 0.04s;
+	border: 2px solid white;
+}
+.homepagebuttons:hover{/*navagation buttonscolor change on hover*/
+	background-color: rgb(31, 27, 27);
+  text-shadow: 2px 2px 4px beige;
+	color:beige;
+}
+  
+  
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    border: 2px solid black;
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    border: 2px solid black;
+    float: right;
+    width: 29;
+    background-color: #f1f1f1;
+    padding: 2px;
+    margin-right: 50px;
+  }
+
+    
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 0px;
+  }
+  .card_page_title{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+/* Footer */
+.footer {
+    border: 2px solid black;
+    height: 22em;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+  }
+.mainfooterlogo{
+    float: left;
+    border: 2px solid black;
+}
+
+
+/* SIP page*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .SIP_discription{
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;    
+    margin-top: 10px;
+  }
+  
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
