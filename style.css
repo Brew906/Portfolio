@@ -70,7 +70,26 @@ body {
   text-shadow: 2px 2px 4px beige;
 	color:beige;
 }
+  /* Create three unequal columns that floats next to each other on index page */
+.column1 {
+  float: left;
   
+  
+}
+
+/* Left and right column */
+.column1.side {
+  
+  border: 2px solid black;
+  
+}
+
+/* Middle column */
+.column1.middle {
+  width: 45%;
+  border: 2px solid black;
+}
+
   
   /* Create two unequal columns that floats next to each other */
 /* Left column */
@@ -162,7 +181,7 @@ body {
   }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-    .column {
+   .column, .column1.middle, .column1.side{
       width: 100%;
     }
   }
