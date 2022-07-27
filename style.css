@@ -20,7 +20,7 @@ body {
   
   /* Header/Blog Title */
   .header {
-    background-image: url('images/desk2.jpg');
+    background-image: url('desk2.jpg');
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
