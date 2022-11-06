@@ -215,6 +215,18 @@ body {
     color:beige;
     cursor: pointer;
   }
+/*best Projects page*/
+  .column3 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  .column31 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    margin-top: 15px;
+  }
 
 
 
