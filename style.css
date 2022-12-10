@@ -232,7 +232,7 @@ body {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn, .form-control {   
+    .leftcolumn, .rightcolumn, .form-control, .column3, .column31 {   
       width: 100%;
       padding: 0;
     }
@@ -247,7 +247,7 @@ body {
   }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-    .column, .column1.middle, .column1.side, .form-control{
+    .column, .column1.middle, .column1.side, .form-control, .column3, .column31{
       width: 100%;
     }
   }
